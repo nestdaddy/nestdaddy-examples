@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nestdaddy": {
+      "url": "https://mcp.nestdaddy.com/mcp",
+      "headers": { "Authorization": "Bearer YOUR_KEY" }
+    }
+  }
+}

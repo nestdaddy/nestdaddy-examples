@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "nestdaddy": {
+      "type": "http",
+      "url": "https://mcp.nestdaddy.com/mcp",
+      "headers": { "Authorization": "Bearer YOUR_KEY" }
+    }
+  }
+}
