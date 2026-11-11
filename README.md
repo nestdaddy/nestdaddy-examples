@@ -32,6 +32,7 @@ Send the key in the `X-API-Key` header (or as `?key=` on the URL when a client c
 | `GET /api/v1/research?q=&per_page=` | Research papers (arXiv, PubMed, OpenAlex, CrossRef and more) |
 
 Base URL: `https://nestdaddy.com`. Full reference: [nestdaddy.com/apis](https://nestdaddy.com/apis).
+OpenAPI 3.1 spec (import into Postman, Insomnia or a code generator): [nestdaddy.com/openapi.json](https://nestdaddy.com/openapi.json).
 
 ## Examples
 
