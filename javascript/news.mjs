@@ -1,12 +1,12 @@
 // News search across 45+ countries, or the latest headlines for one country.
-//   node news.mjs "interest rate" MY      -> news search in Malaysia, last 7 days
+//   node news.mjs "interest rate" US      -> news search in the US, last 7 days
 //   node news.mjs --latest SG             -> latest Singapore headlines
 import { get } from "./nestdaddy.mjs";
 
 const args = process.argv.slice(2);
 
 if (args[0] === "--latest") {
-  const country = (args[1] || "MY").toUpperCase();
+  const country = (args[1] || "US").toUpperCase();
   const data = await get("/api/v1/news/local", { country, limit: 10 });
   for (const a of data.articles) console.log(`- ${a.title} (${a.source_domain})\n  ${a.url}`);
 } else {

@@ -27,7 +27,7 @@ Send the key in the `X-API-Key` header (or as `?key=` on the URL when a client c
 | `GET /api/v1/search?q=` | Web results from NestDaddy's own index |
 | `GET /api/v1/news/search?q=&country=&days=` | News by key words, 45+ countries, last 120 days |
 | `GET /api/v1/news/global` `/tech` `/financial` | Latest headlines by topic |
-| `GET /api/v1/news/local?country=MY` | Latest headlines from one country |
+| `GET /api/v1/news/local?country=SG` | Latest headlines from one country |
 | `GET /api/v1/extract?url=` | The readable text of one web page |
 | `GET /api/v1/research?q=&per_page=` | Research papers (arXiv, PubMed, OpenAlex, CrossRef and more) |
 
@@ -43,12 +43,15 @@ OpenAPI 3.1 spec (import into Postman, Insomnia or a code generator): [nestdaddy
 | [`javascript/`](javascript/) | Node 18+ with the built-in `fetch` |
 | [`mcp/`](mcp/) | Config for Claude, Claude Code, Cursor, VS Code, Windsurf and n8n |
 
+Ready-to-use template: [**news-digest-bot**](https://github.com/nestdaddy/news-digest-bot), a daily news digest
+to Telegram, Slack or email that runs free on GitHub Actions.
+
 Quick start:
 
 ```bash
 git clone https://github.com/nestdaddy/nestdaddy-examples
 cd nestdaddy-examples
-python python/news_search.py "interest rate" --country MY
+python python/news_search.py "interest rate" --country US
 node javascript/search.mjs "rust error handling"
 ```
 

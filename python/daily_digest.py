@@ -1,6 +1,6 @@
 """Print a short daily digest: top headlines for a few topics and one country.
 
-    python daily_digest.py --country MY --per-topic 5
+    python daily_digest.py --country SG --per-topic 5
 
 Run it from cron or a scheduled task and send the output to email, Slack or Telegram.
 """
@@ -9,7 +9,7 @@ import argparse
 from nestdaddy import get
 
 parser = argparse.ArgumentParser(description="NestDaddy daily news digest")
-parser.add_argument("--country", default="MY", help="two-letter code for the local section")
+parser.add_argument("--country", default="SG", help="two-letter code for the local section")
 parser.add_argument("--per-topic", type=int, default=5)
 args = parser.parse_args()
 

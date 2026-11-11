@@ -1,6 +1,6 @@
 """Find news about anything across 45+ countries (last 120 days).
 
-    python news_search.py "interest rate" --country MY --days 7
+    python news_search.py "interest rate" --country US --days 7
     python news_search.py "electric vehicles" --topic tech
 """
 import argparse
@@ -9,7 +9,7 @@ from nestdaddy import get
 
 parser = argparse.ArgumentParser(description="NestDaddy news search")
 parser.add_argument("query")
-parser.add_argument("--country", help="two-letter code, for example MY, SG, US, GB")
+parser.add_argument("--country", help="two-letter code, for example US, GB, SG, MY")
 parser.add_argument("--topic", choices=["global", "tech", "financial", "local"])
 parser.add_argument("--days", type=int, default=30, help="1 to 120")
 parser.add_argument("--limit", type=int, default=10, help="1 to 50")
