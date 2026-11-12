@@ -1,5 +1,7 @@
 # NestDaddy API and MCP examples
 
+[![mcptry](https://mcptry.com/badge/com.nestdaddy/nestdaddy)](https://mcptry.com/servers/com.nestdaddy/nestdaddy)
+
 Working examples for [NestDaddy](https://nestdaddy.com), an independent search engine with its own web index.
 Use them to give your app or AI agent live web search, news from 45+ countries, the full text of any article,
 and research papers.
