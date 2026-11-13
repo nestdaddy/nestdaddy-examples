@@ -13,7 +13,7 @@ curl -s "https://nestdaddy.com/api/v1/search?q=python+asyncio+guide&limit=5" \
   -H "X-API-Key: $NESTDADDY_API_KEY"
 ```
 
-## News search (45+ countries, last 120 days)
+## News search (worldwide, last 120 days)
 
 ```bash
 curl -s "https://nestdaddy.com/api/v1/news/search?q=interest+rate&country=US&days=7&limit=10" \

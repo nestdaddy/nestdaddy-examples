@@ -2,9 +2,9 @@
 
 [![mcptry](https://mcptry.com/badge/com.nestdaddy/nestdaddy)](https://mcptry.com/servers/com.nestdaddy/nestdaddy)
 
-Working examples for [NestDaddy](https://nestdaddy.com), an independent search engine with its own web index.
-Use them to give your app or AI agent live web search, news from 45+ countries, the full text of any article,
-and research papers.
+Working examples for [NestDaddy](https://nestdaddy.com): give your AI today's internet.
+Use them to give your app or AI agent live web search, real-time breaking news from around the world,
+the full text of any article, and research papers, all from NestDaddy's own index.
 
 - **REST API**: plain HTTPS + JSON, any language. Docs: [nestdaddy.com/apis](https://nestdaddy.com/apis)
 - **MCP server**: one remote server for Claude, Cursor, VS Code, n8n and any MCP client.
@@ -27,7 +27,7 @@ Send the key in the `X-API-Key` header (or as `?key=` on the URL when a client c
 | Endpoint | What it returns |
 |---|---|
 | `GET /api/v1/search?q=` | Web results from NestDaddy's own index |
-| `GET /api/v1/news/search?q=&country=&days=` | News by key words, 45+ countries, last 120 days |
+| `GET /api/v1/news/search?q=&country=&days=` | News by key words, worldwide, last 120 days |
 | `GET /api/v1/news/global` `/tech` `/financial` | Latest headlines by topic |
 | `GET /api/v1/news/local?country=SG` | Latest headlines from one country |
 | `GET /api/v1/extract?url=` | The readable text of one web page |

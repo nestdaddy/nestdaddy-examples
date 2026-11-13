@@ -1,4 +1,4 @@
-"""Find news about anything across 45+ countries (last 120 days).
+"""Find news about anything, worldwide (last 120 days).
 
     python news_search.py "interest rate" --country US --days 7
     python news_search.py "electric vehicles" --topic tech

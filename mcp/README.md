@@ -1,7 +1,8 @@
 # NestDaddy MCP server
 
-One remote MCP server gives your AI app live web search, news from 45+ countries with full article text,
-research papers, and data on new AI models, software and games.
+Give your AI today's internet. One remote MCP server gives your AI app live web search, real-time breaking
+news from around the world with full article text, research papers, and data on new AI models, software
+and games.
 
 - Server URL: `https://mcp.nestdaddy.com/mcp` (Streamable HTTP)
 - Auth: `Authorization: Bearer YOUR_KEY` (or `?key=YOUR_KEY` on the URL when the client cannot set headers)
@@ -12,7 +13,7 @@ research papers, and data on new AI models, software and games.
 
 | Tool | What it does |
 |---|---|
-| `news_search` | News by key words across 45+ countries and the last 120 days |
+| `news_search` | News by key words, worldwide, from the last 120 days |
 | `web_search` | Pages from NestDaddy's own web index |
 | `news` | Global, tech and financial headlines |
 | `country_news` | Local news by country |
