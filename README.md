@@ -42,6 +42,7 @@ OpenAPI 3.1 spec (import into Postman, Insomnia or a code generator): [nestdaddy
 |---|---|
 | [`curl/`](curl/) | One-line requests for every endpoint |
 | [`python/`](python/) | Web search, news search, a daily news digest, read a page in full, research papers (standard library only) |
+| [`python/ai-agent-from-scratch/`](python/ai-agent-from-scratch/) | Build an AI agent from scratch in ~60 lines: a model, tools and a loop (free with Ollama) |
 | [`javascript/`](javascript/) | Node 18+ with the built-in `fetch` |
 | [`mcp/`](mcp/) | Config for Claude, Claude Code, Cursor, VS Code, Windsurf and n8n |
 
